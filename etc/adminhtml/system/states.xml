@@ -5,17 +5,17 @@
         <field id="pending" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
             <label>Initial state of the order</label>
             <comment>This of the transaction while it is processed and is pending payment</comment>
-            <source_model>Saulmoralespa\PayuLatam\Model\Config\Source\Order\Status</source_model>
+            <source_model>Llevelo\PayuLatam\Model\Config\Source\Order\Status</source_model>
         </field>
         <field id="approved" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
             <label>Order status when the payment is approved</label>
             <comment>Final status informed by the means of payment</comment>
-            <source_model>Saulmoralespa\PayuLatam\Model\Config\Source\Order\Status</source_model>
+            <source_model>Llevelo\PayuLatam\Model\Config\Source\Order\Status</source_model>
         </field>
         <field id="rejected" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="0">
             <label>Order status when the payment is rejected</label>
             <comment>When for any reason the transaction was denied</comment>
-            <source_model>Saulmoralespa\PayuLatam\Model\Config\Source\Order\Status</source_model>
+            <source_model>Llevelo\PayuLatam\Model\Config\Source\Order\Status</source_model>
         </field>
     </group>
 </include>

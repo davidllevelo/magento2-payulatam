@@ -6,7 +6,7 @@
  * Time: 07:47 AM
  */
 
-namespace Saulmoralespa\PayuLatam\Model;
+namespace Llevelo\PayuLatam\Model;
 
 class PayuLatam extends \Magento\Payment\Model\Method\AbstractMethod
 {
@@ -39,7 +39,7 @@ class PayuLatam extends \Magento\Payment\Model\Method\AbstractMethod
     protected $_helperData;
 
     public function __construct(
-        \Saulmoralespa\PayuLatam\Helper\Data $helperData,
+        \Llevelo\PayuLatam\Helper\Data $helperData,
         \Magento\Framework\Model\Context $context,
         \Magento\Framework\Registry $registry,
         \Magento\Framework\Api\ExtensionAttributesFactory $extensionFactory,

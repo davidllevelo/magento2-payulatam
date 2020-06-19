@@ -6,7 +6,7 @@
  * Time: 02:27 PM
  */
 
-namespace Saulmoralespa\PayuLatam\Controller\Payment;
+namespace Llevelo\PayuLatam\Controller\Payment;
 
 
 class Pending extends \Magento\Framework\App\Action\Action

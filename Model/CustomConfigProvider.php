@@ -6,7 +6,7 @@
  * Time: 11:17 AM
  */
 
-namespace Saulmoralespa\PayuLatam\Model;
+namespace Llevelo\PayuLatam\Model;
 
 use Magento\Checkout\Model\ConfigProviderInterface;
 
@@ -20,7 +20,7 @@ class CustomConfigProvider implements ConfigProviderInterface
     /**
      * @var string
      */
-    protected $methodCode = \Saulmoralespa\PayuLatam\Model\PayuLatam::CODE;
+    protected $methodCode = \Llevelo\PayuLatam\Model\PayuLatam::CODE;
 
     public function __construct(
         \Magento\Framework\View\Asset\Repository $assetRepo
@@ -34,7 +34,7 @@ class CustomConfigProvider implements ConfigProviderInterface
         return [
             'payment' => [
                 $this->methodCode => [
-                    'logoUrl' => $this->_assetRepo->getUrl("Saulmoralespa_PayuLatam::images/logo.png")
+                    'logoUrl' => $this->_assetRepo->getUrl("Llevelo_PayuLatam::images/logo.png")
                 ]
             ]
         ];

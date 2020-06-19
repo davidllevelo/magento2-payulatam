@@ -6,7 +6,7 @@
  * Time: 12:38 PM
  */
 
-namespace Saulmoralespa\PayuLatam\Controller\Payment;
+namespace Llevelo\PayuLatam\Controller\Payment;
 
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Payment\Helper\Data as PaymentHelper;
@@ -32,7 +32,7 @@ class Complete extends \Magento\Framework\App\Action\Action
     protected $_logger;
 
     /**
-     * @var \Saulmoralespa\PayuLatam\Helper\Data
+     * @var \Llevelo\PayuLatam\Helper\Data
      */
     protected $_helperData;
 
@@ -52,7 +52,7 @@ class Complete extends \Magento\Framework\App\Action\Action
     protected $_transactionBuilder;
 
     /**
-     * @var \Saulmoralespa\PayuLatam\Logger\Logger
+     * @var \Llevelo\PayuLatam\Logger\Logger
      */
     protected $_payuLatamLogger;
 
@@ -71,8 +71,8 @@ class Complete extends \Magento\Framework\App\Action\Action
     protected $formKey;
 
     public function __construct(
-        \Saulmoralespa\PayuLatam\Logger\Logger $payuLatamLogger,
-        \Saulmoralespa\PayuLatam\Helper\Data $helperData,
+        \Llevelo\PayuLatam\Logger\Logger $payuLatamLogger,
+        \Llevelo\PayuLatam\Helper\Data $helperData,
         \Magento\Framework\App\Action\Context $context,
         \Magento\Framework\Data\Form\FormKey $formKey,
         \Magento\Framework\App\Request\Http $request,

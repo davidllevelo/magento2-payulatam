@@ -6,7 +6,7 @@
  * Time: 08:27 AM
  */
 
-namespace Saulmoralespa\PayuLatam\Model\Config\Source\Order;
+namespace Llevelo\PayuLatam\Model\Config\Source\Order;
 
 
 class Status extends \Magento\Sales\Model\Config\Source\Order\Status

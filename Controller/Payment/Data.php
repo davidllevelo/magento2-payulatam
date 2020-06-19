@@ -6,7 +6,7 @@
  * Time: 06:54 PM
  */
 
-namespace Saulmoralespa\PayuLatam\Controller\Payment;
+namespace Llevelo\PayuLatam\Controller\Payment;
 
 use Magento\Sales\Model\Order\Payment\Transaction;
 use Magento\Payment\Helper\Data as PaymentHelper;
@@ -33,8 +33,8 @@ class Data extends \Magento\Framework\App\Action\Action
         \Magento\Framework\App\Action\Context $context,
         \Magento\Checkout\Model\Session $checkoutSession,
         \Magento\Sales\Model\OrderFactory $orderFactory,
-        \Saulmoralespa\PayuLatam\Helper\Data $helperData,
-        \Saulmoralespa\PayuLatam\Logger\Logger $payuLatamLogger,
+        \Llevelo\PayuLatam\Helper\Data $helperData,
+        \Llevelo\PayuLatam\Logger\Logger $payuLatamLogger,
         \Magento\Framework\Controller\Result\JsonFactory $resultJsonFactory,
         \Magento\Sales\Model\Order\Payment\Transaction\BuilderInterface $transactionBuilder,
         PaymentHelper $paymentHelper

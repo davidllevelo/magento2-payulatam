@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /**
-* @copyright Copyright (c) 2018 Saul Morales Paccheco www.saulmoralespa.com
+* @copyright Copyright (c) 2018 Saul Morales Paccheco Llevelo.co
 */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
@@ -25,14 +25,14 @@
                 <field id="environment" translate="label" type="select" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Environment</label>
                     <comment>Set to No if you are going to production Mode</comment>
-                    <source_model>Saulmoralespa\PayuLatam\Model\Config\Source\Environment</source_model>
+                    <source_model>Llevelo\PayuLatam\Model\Config\Source\Environment</source_model>
                     <depends>
                         <field id="active">1</field>
                     </depends>
                 </field>
 
-                <include path="Saulmoralespa_PayuLatam::system/enviroment.xml"/>
-                <include path="Saulmoralespa_PayuLatam::system/states.xml"/>
+                <include path="Llevelo_PayuLatam::system/enviroment.xml"/>
+                <include path="Llevelo_PayuLatam::system/states.xml"/>
 
                 <field id="sort_order" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Sort Order</label>

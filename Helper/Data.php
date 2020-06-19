@@ -6,7 +6,7 @@
  * Time: 09:36 AM
  */
 
-namespace Saulmoralespa\PayuLatam\Helper;
+namespace Llevelo\PayuLatam\Helper;
 
 use Magento\Framework\View\LayoutFactory;
 
@@ -17,7 +17,7 @@ class Data extends \Magento\Payment\Helper\Data
     protected $_enviroment;
 
     public function __construct(
-        \Saulmoralespa\PayuLatam\Logger\Logger $payuLatamLogger,
+        \Llevelo\PayuLatam\Logger\Logger $payuLatamLogger,
         \Magento\Framework\App\Helper\Context $context,
         LayoutFactory $layoutFactory,
         \Magento\Payment\Model\Method\Factory $paymentMethodFactory,

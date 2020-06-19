@@ -17,7 +17,7 @@
                                                             <!-- merge payment method renders here -->
                                                             <item name="children" xsi:type="array">
                                                                 <item name="payulatam" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Saulmoralespa_PayuLatam/js/view/payment/payulatam</item>
+                                                                    <item name="component" xsi:type="string">Llevelo_PayuLatam/js/view/payment/payulatam</item>
                                                                     <item name="methods" xsi:type="array">
                                                                         <item name="payulatam" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>

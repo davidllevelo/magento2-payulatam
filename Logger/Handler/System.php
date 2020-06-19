@@ -6,7 +6,7 @@
  * Time: 07:12 AM
  */
 
-namespace Saulmoralespa\PayuLatam\Logger\Handler;
+namespace Llevelo\PayuLatam\Logger\Handler;
 
 use Monolog\Logger;
 

@@ -6,7 +6,7 @@
  * Time: 02:31 PM
  */
 
-namespace Saulmoralespa\PayuLatam\Block;
+namespace Llevelo\PayuLatam\Block;
 
 
 class Pending extends \Magento\Framework\View\Element\Template

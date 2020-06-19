@@ -9,7 +9,7 @@ define(
         'Magento_Checkout/js/model/payment/additional-validators',
         'Magento_Checkout/js/model/error-processor',
         'Magento_Checkout/js/model/full-screen-loader',
-        'Saulmoralespa_PayuLatam/js/view/payment/form-builder',
+        'Llevelo_PayuLatam/js/view/payment/form-builder',
         'mage/url'
     ],
     function (
@@ -30,7 +30,7 @@ define(
         return Component.extend({
             redirectAfterPlaceOrder: false,
             defaults: {
-                template: 'Saulmoralespa_PayuLatam/payment/payulatam'
+                template: 'Llevelo_PayuLatam/payment/payulatam'
             },
 
             placeOrder: function (data, event) {
@@ -44,6 +44,9 @@ define(
                 if (!customer.isLoggedIn()) {
                     $(loginFormSelector).validation();
                     emailValidationResult = Boolean($(loginFormSelector + ' input[name=username]').valid());
+                }
+                if (!emailValidationResult) {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
                 if (emailValidationResult && this.validate()) {
                     this.isPlaceOrderActionAllowed(false);

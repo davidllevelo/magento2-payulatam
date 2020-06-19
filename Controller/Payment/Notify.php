@@ -6,7 +6,7 @@
  * Time: 12:38 PM
  */
 
-namespace Saulmoralespa\PayuLatam\Controller\Payment;
+namespace Llevelo\PayuLatam\Controller\Payment;
 
 use Magento\Payment\Helper\Data as PaymentHelper;
 use Magento\Sales\Model\Order\Payment\Transaction;
@@ -31,7 +31,7 @@ class Notify  extends \Magento\Framework\App\Action\Action
         \Magento\Framework\App\Action\Context $context,
         \Magento\Framework\Data\Form\FormKey $formKey,
         \Magento\Framework\App\Request\Http $request,
-        \Saulmoralespa\PayuLatam\Helper\Data $helperData,
+        \Llevelo\PayuLatam\Helper\Data $helperData,
         PaymentHelper $paymentHelper,
         \Magento\Sales\Api\TransactionRepositoryInterface $transactionRepository
     )

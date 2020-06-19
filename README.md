@@ -15,16 +15,16 @@ payU latam gateway payment available for Argentina, Brasil, Chile, Colombia, Mé
 Use composer package manager
 
 ```bash
-composer require saulmoralespa/magento2-payulatam
+composer require llevelo/magento2-payulatam
 ```
 
 Execute the commands
 
 ```bash
-php bin/magento module:enable Saulmoralespa_PayuLatam --clear-static-content
+php bin/magento module:enable llevelo_PayuLatam --clear-static-content
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
-php bin/magento setup:static-content:deploy en_US #on i18n
+php bin/magento setup:static-content:deploy es_CO #on i18n
 ```
 
 ## Configuration ##

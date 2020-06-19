@@ -6,7 +6,7 @@
  * Time: 07:13 AM
  */
 
-namespace Saulmoralespa\PayuLatam\Logger;
+namespace Llevelo\PayuLatam\Logger;
 
 class Handler extends  \Magento\Framework\Logger\Handler\Base
 {

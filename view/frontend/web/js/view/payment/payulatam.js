@@ -11,7 +11,7 @@ define(
         rendererList.push(
             {
                 type: 'payulatam',
-                component: 'Saulmoralespa_PayuLatam/js/view/payment/method-renderer/payulatam'
+                component: 'Llevelo_PayuLatam/js/view/payment/method-renderer/payulatam'
             }
         );
         /** Add view logic here if needed */
