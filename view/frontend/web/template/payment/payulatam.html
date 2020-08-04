@@ -1,6 +1,7 @@
 <div class="payment-method" data-bind="css: {'_active': (getCode() == isChecked())}">
-    <div class="payment-method-title field choice">
+    <div class="payment-method-title field choice" style="display: flex;">
         <input type="radio"
+               style="margin-top: 50px !important;"
                name="payment[method]"
                class="radio"
                data-bind="attr: {'id': getCode()}, value: getCode(), checked: isChecked, click: selectPaymentMethod, visible: isRadioButtonVisible()"/>
@@ -10,25 +11,18 @@
         </label>
         <div style="
     max-width: 300px;
-    background-color: lightgrey;
+    background-color: #f1f0f0;
     text-align: center;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-left: 20px;
 ">
-            <h3 style="
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-">Importante</h3>
             <p style="
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     color: #797373;
     font-size: 14px;
-    /* text-align: justify; */
-">No se preocupe si encuentra el aviso de "modo de pruebas". El cobro se
-                realizará con normalidad.</p>
+">PSE, tarjetas de crédito, efectivo y billeteras digitales</p>
         </div>
     </div>
 
